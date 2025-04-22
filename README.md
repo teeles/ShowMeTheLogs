@@ -36,9 +36,9 @@ ShowMeTheLogs is a Bash script that gathers macOS system logs, diagnostic report
    ```
 3. **Run the Scrip**
 
-```bash
-./showmethelogs.sh
-```
+   ```bash
+   ./showmethelogs.sh
+   ```
 
 - A temporary directory `/tmp/logs` is created for log aggregation.
 - A ZIP file named `logs_backup_<hostname>_<YYYYMMDDHHMMSS>.zip` is placed on the user’s Desktop.
